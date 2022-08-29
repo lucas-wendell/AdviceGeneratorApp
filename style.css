@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Manrope", sans-serif;
+}
+
+body {
+	height: 100vh;
+	background-color: hsl(218, 23%, 16%);
+}
+
+::selection {
+	background-color: hsl(150, 100%, 66%);
+	color: hsl(217, 19%, 24%);
+}
+
+.main {
+	top: 50%;
+	left: 50%;
+	width: 60%;
+	height: 400px;
+	padding: 70px;
+	position: relative;
+	border-radius: 15px;
+	transform: translate(-50%, -50%);
+	background-color: hsl(217, 19%, 24%);
+}
+
+.main .divider {
+	width: 100%;
+}
+
+.main .textDiv {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main .textDiv p {
+	font-size: 1.3em;
+	color: hsl(150, 100%, 66%);
+}
+
+.main .textDiv h1 {
+	font-size: 2.3em;
+	text-align: center;
+	color: hsl(193, 38%, 86%);
+}
+
+.main .iconDice {
+	left: 50%;
+	padding: 15px;
+	bottom: -35px;
+	display: flex;
+	cursor: pointer;
+	border-radius: 50%;
+	position: absolute;
+	width: min-content;
+	align-items: center;
+	justify-content: center;
+	transform: translateX(-50%);
+	background-color: hsl(150, 100%, 66%);
+}
+
+.main .iconDice img {
+	width: 40px;
+	height: 40px;
+}
+
+@media (max-width: 1000px) {
+	.main .textDiv h1 {
+		font-size: 1.7em;
+	}
+
+	.main {
+		padding: 50px;
+	}
+
+	.main .iconDice {
+		padding: 10px;
+		bottom: -25px;
+	}
+
+	.main .iconDice img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media (max-width: 700px) {
+	.main .textDiv h1 {
+		font-size: 1.4em;
+	}
+
+	.main .textDiv p {
+		font-size: 1.1em;
+	}
+
+	.main .iconDice {
+		padding: 10px;
+		bottom: -25px;
+	}
+
+	.main .iconDice img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media (max-width: 515px) {
+	.main .textDiv h1 {
+		font-size: 1em;
+	}
+
+	.main .textDiv p {
+		font-size: 0.9em;
+	}
+
+	.main {
+		padding: 70px 30px;
+	}
+}
+
+@media (max-width: 430px) {
+	.main {
+		width: 70%;
+	}
+}
