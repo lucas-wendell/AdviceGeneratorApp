@@ -16,4 +16,4 @@ Considero que esse projeto não me trouxe muitos desafios, consegui resolve-lô 
     - Javascript
     - API
     
-### **[Clique aqui e teste o projeto](https://l-wendell.github.io/AdviceGeneratorApp/)**
+### **[Clique aqui e teste o projeto](https://lucas-wendell.github.io/AdviceGeneratorApp/)**
